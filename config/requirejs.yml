@@ -1,0 +1,9 @@
+paths:
+  jquery: 'jquery-1.10.2'
+  underscore: 'lodash.underscore-2.4.1'
+  backbone: 'backbone-1.1.0'
+  chaplin: 'chaplin-0.12.0'
+shim:
+  'backbone':
+    deps: ['underscore', 'jquery']
+    exports: 'Backbone'
